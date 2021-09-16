@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_custom_payment_details",
+  "info": {
+    "name": "paymentDetails",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "paid",
+        "unpaid"
+      ]
+    },
+    "method": {
+      "type": "enumeration",
+      "enum": [
+        "cash",
+        "easyPaise",
+        "jazzCash",
+        "visa"
+      ]
+    },
+    "billAmount": {
+      "type": "biginteger",
+      "required": true
+    },
+    "billPreDiscount": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

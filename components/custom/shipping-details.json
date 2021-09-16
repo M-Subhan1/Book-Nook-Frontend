@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_custom_shipping_details",
+  "info": {
+    "name": "shippingDetails",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "biginteger",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true,
+      "default": "lahore"
+    },
+    "state": {
+      "type": "string",
+      "required": true,
+      "default": "punjab"
+    },
+    "country": {
+      "type": "string",
+      "default": "pakistan"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_custom_order_details",
+  "info": {
+    "name": "orderDetails",
+    "icon": "luggage-cart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "model": "products"
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    }
+  }
+}
