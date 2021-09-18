@@ -29,6 +29,16 @@
       "repeatable": true,
       "component": "custom.order-details",
       "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "processing",
+        "shipped",
+        "canceled"
+      ],
+      "default": "processing",
+      "required": true
     }
   }
 }
